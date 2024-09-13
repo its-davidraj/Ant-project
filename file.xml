@@ -1,0 +1,10 @@
+<? Xml version="1.0"?>
+   <project name="HELLO WORLD PROJECT" default="compile">
+      <target name="comile">
+         ......code compile
+      <target name="package" depends="compile">
+         ......package
+      <target name="deploy" depends="package">
+         ......code deployment
+      </target>
+   </project>    
